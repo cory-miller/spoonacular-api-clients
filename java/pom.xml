@@ -22,6 +22,14 @@
         </license>
     </licenses>
 
+    <distributionManagement>
+        <repository>
+        <id>github</id>
+        <name>GitHub Packages</name>
+        <url>https://maven.pkg.github.com/cory-miller/spoonacular-api-clients</url>
+        </repository>
+    </distributionManagement>
+
     <developers>
         <developer>
             <name>David Urbansky</name>
