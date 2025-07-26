@@ -426,7 +426,7 @@ public class RecipeInformationExtendedIngredientsInner {
       // check to see if the JSON string contains additional fields
       for (Map.Entry<String, JsonElement> entry : entries) {
         if (!RecipeInformationExtendedIngredientsInner.openapiFields.contains(entry.getKey())) {
-          throw new IllegalArgumentException(String.format("The field `%s` in the JSON string is not defined in the `RecipeInformationExtendedIngredientsInner` properties. JSON: %s", entry.getKey(), jsonElement.toString()));
+          System.out.println(String.format("The field `%s` in the JSON string is not defined in the `RecipeInformationExtendedIngredientsInner` properties. JSON: %s", entry.getKey(), jsonElement.toString()));
         }
       }
 
